@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Yandex Music Donwloader",
+    "version": "1.0",
+    "description": "Простое расширенние позволяющее скачивать музыкальные файлы с сервиса Яндекс Музыка",
+    "icons": {
+        "128": "kiwi.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://music.yandex.ru/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ]
+}
