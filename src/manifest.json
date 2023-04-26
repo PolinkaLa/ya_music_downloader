@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Yandex Music Donwloader",
     "version": "1.0",
     "description": "Простое расширенние позволяющее скачивать музыкальные файлы с сервиса Яндекс Музыка",
